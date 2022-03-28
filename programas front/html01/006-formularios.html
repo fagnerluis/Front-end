@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang = "pt-br">
+    <head>
+              <title>Formulario fale conosco </title>
+              <meta charset="utf-8">
+              <meta name='vierport' content="width=device-width,initial-scale=1">
+              <link rel="stylesheet" type="text/css" href="./css/style.css">
+    </head>
+    <body>
+         <header>
+                    <h2>Curso Front-end - HTML</h2>
+         </header>
+            <section>
+                <nav>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href=".006-fomularios.html">Contato</a></li>
+                            
+                        
+                    </ul>
+                </nav>
+
+                <article>
+                    <h1>Contato</h1>
+                    <p> Preencha os campos abaixo</p>
+
+                    <form method="post">  
+                     <div>
+                            <label for = 'nome'>Nome</label><br>
+                            <input type="text" name="nome" id = "nome">
+                    </div>
+                    <div>
+                            <label for= "email">E-mail</label><br>
+                            <input trype= "email"  name="email" id="email">
+                    </div>
+                    <div>
+                             <label for ="mensagem">Mensagem</label><br>
+                             <textarea name="mensagem" id= "mensagem">Mensagem </textarea> 
+                    </div>
+                    <div>
+                     <p>
+                        <label>Quais linguagens voce sabe ?</label>
+                        <input type="checkbox" name="linguagens">HTML
+                        <input type="checkbox" name="linguagens">CSS
+                        <input type="checkbox" name="linguagens">JavaScript
+                     </p>
+                    </div>
+                    <div>
+                        <label>Qual linguagens voce gosta?</label>
+                        <input type="radio" name="linguagens">HTML
+                        <input type="radio" name="linguagens">CSS
+                        <input type="radio" name="linguagens">JavaScript
+                    </div>
+                    <div>
+                        <input type="submit"> <!-- enviar-->
+                    </div>
+                       <label>Qual sua cor favorita?</label>
+                       <select>
+                           <option value="Azul">Azul</option>
+
+                           <option value="vermelho" selected>vermelho</option>
+                       </select>
+
+                    </form>
+                </article>
+        <footer>
+            <p>Desenvolvido por Luis</p>
+        </footer>
+            </section>
+     </body>
+</html>
